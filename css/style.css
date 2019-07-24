@@ -1,0 +1,70 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree Serif', serif;
+}
+ 
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+}
+
+li a:hover {
+  background-color: white;
+  color: green;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 0rem;
+}
+
+.icons img {
+  height: 2.5em;
+  width: 2.5em;
+}
+
+@media only screen and (max-width: 30rem) {
+  body {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (min-width: 30rem) and (max-width: 60rem) {
+  body {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media only screen and (min-width: 60rem) {
+    body {
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+}
